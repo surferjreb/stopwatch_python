@@ -94,7 +94,7 @@ def main():
     if args.command != None:
         time_commands(args)
     else:
-        run_timer()
+        run_single_timer()
 
 
 if __name__ == '__main__':
